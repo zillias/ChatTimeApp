@@ -1,0 +1,46 @@
+.progress {
+  margin: 200px auto 0 !important;
+  width: fit-content;
+  height: 390px;
+}
+
+.mainContainer {
+  margin: 30px auto 10px;
+  width: 90vw !important;
+  border: 2px solid #115293;
+  border-radius: 10px;
+  height: 600px;
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.chatContainer {
+  height: 100%;
+}
+
+.contactsContainer {
+  border-right: 1.5px solid #115293;
+  height: 100%;
+}
+
+.videoContainer {
+  border-right: 1.5px solid #115293;
+}
+
+.emptyChat {
+  text-align: center;
+  margin-top: 250px !important;
+}
+
+@media (max-width: 960px) {
+  .contactsContainer {
+    height: fit-content;
+    border-bottom: 1.5px solid #115293;
+  }
+  .mainContainer {
+    height: fit-content;
+  }
+  .emptyChat {
+    margin-top: 150px !important;
+    margin-bottom: 250px !important;
+  }
+}

@@ -1,0 +1,51 @@
+.progress {
+  margin: 10px auto 0;
+  width: fit-content;
+}
+
+.sidebar {
+  width: 90%;
+  margin: 10px auto 0;
+}
+
+.searchField {
+  border-radius: 10px;
+}
+
+.subheader {
+  background-color: #fff !important;
+  color: #3f51b5;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.userslist {
+  overflow-x: scroll;
+  max-height: 460px;
+}
+
+.user {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.userName {
+  text-transform: capitalize;
+}
+
+.online {
+  color: #81c784;
+}
+
+.offline {
+  color: #e57373;
+}
+
+.onCall {
+  color: #ffb74d;
+}
+
+@media (max-width: 960px) {
+  .userslist {
+    max-height: 200px;
+  }
+}

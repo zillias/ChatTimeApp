@@ -1,0 +1,24 @@
+{
+  "name": "reactchatapp",
+  "version": "1.0.0",
+  "description": "React Chat App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "z.illias",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "socket.io": "^4.1.2"
+  }
+}

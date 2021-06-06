@@ -1,0 +1,19 @@
+.logo {
+  flex-grow: 1;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.btn {
+  color: white;
+  margin-left: 30px !important;
+}
+
+.username {
+  text-transform: capitalize;
+  margin-right: 50px !important;
+}

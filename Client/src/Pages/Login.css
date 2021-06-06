@@ -1,0 +1,52 @@
+.main {
+  height: 520px;
+}
+
+.title {
+  margin: 70px auto 0;
+  width: fit-content;
+}
+
+.registerTitle {
+  margin: 70px auto 0;
+  width: fit-content;
+}
+
+.progress {
+  margin: 200px auto 0;
+  width: fit-content;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  margin: 10px auto 0;
+  border: 1.5px solid #115293;
+  padding: 40px 20px 30px;
+}
+
+.loginForm .textField {
+  margin-top: 20px;
+}
+
+.loginForm .textField:first-child {
+  margin-top: 0px;
+}
+
+.errors {
+  margin-top: 20px;
+  color: #f44336;
+}
+
+.errors ul li {
+  list-style-type: none;
+}
+
+.subtitle {
+  margin: 10px auto 0;
+  width: fit-content;
+  display: flex;
+  align-items: baseline;
+}
