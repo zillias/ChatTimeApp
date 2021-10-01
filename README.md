@@ -8,6 +8,6 @@ Live messaging and Video Chat Application. With Database storage for messages an
 
 Stack :
 
-Back-End : Node, Graqhql, WebSockets, MongoDb.
+Back-End : NodeJs, Graqhql, WebSockets, MongoDb.
 
 Front_End : React, Material-Ui, Redux.
